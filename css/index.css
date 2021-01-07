@@ -29,9 +29,9 @@
     color: white;
 }
 
-.title
+.aboutMe-title
 {
-    padding-left: 300px;
+    padding-left: 480px;
     padding-top: 50px;
     padding-bottom: 50px;
 }
@@ -57,7 +57,7 @@
 
 .contact
 {
-    padding-left: 300px;
+    padding-left: 480px;
     padding-top: 50px;
     padding-bottom: 20px;
 }
@@ -88,6 +88,102 @@
     background-color: purple;
     border:2px solid transparent;
     box-shadow: none;
+}
+
+#resume-link:link, #resume-link:visited, #resume-link:active
+{
+    text-decoration:none;
+    color: white;
+}
+
+.education
+{
+    background-color: white;
+    padding-top: 50px;
+}
+
+.education-title
+{
+    padding-left: 300px;
+    color: mediumpurple;
+    float: left;
+}
+
+.education-school
+{
+    display: inline-block;
+    padding-left: 200px;
+    font-size: 30px;
+    color: rosybrown;
+    font-weight: bolder;
+}
+
+.education-degree
+{
+    padding-left: 645px;
+    font-size: 20px;
+    color: rosybrown;
+}
+
+.education-description
+{
+    padding-left: 645px;
+    padding-right: 350px;
+    font-size: 25px;
+    color: rosybrown;
+    text-align: justify;
+}
+
+#ucv-title
+{
+    padding-left: 640px;
+}
+
+#oneMonth
+{
+    padding-left: 115px;
+}
+
+#benllisoft
+{
+    padding-left: 640px;
+}
+
+#school-web
+{
+    padding-left: 640px;
+}
+.work
+{
+    background-color: linen;
+    padding-top: 30px;
+}
+
+#ruecker
+{
+    padding-left: 265px;
+}
+
+#technoconsult
+{
+    padding-left: 640px;
+}
+
+.skills
+{
+    background-color: white;
+    padding-top: 50px;
+}
+
+#html
+{
+    padding-left: 260px;
+}
+
+.languages
+{
+    background-color: linen;
+    padding-top: 30px;
 }
 
 footer
