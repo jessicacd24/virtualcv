@@ -27,13 +27,13 @@
 {
     background-color: rosybrown;
     color: white;
-    margin-top: -25px;
 }
 
 .title
 {
     padding-left: 300px;
     padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .description
@@ -54,6 +54,14 @@
     float: left;
     margin-right: 40px;
 }
+
+.contact
+{
+    padding-left: 300px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
 
 footer
 {
