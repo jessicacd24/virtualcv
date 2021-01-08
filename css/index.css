@@ -157,6 +157,7 @@
 {
     background-color: linen;
     padding-top: 30px;
+    padding-bottom: 5px;
 }
 
 #ruecker
@@ -172,18 +173,30 @@
 .skills
 {
     background-color: white;
-    padding-top: 50px;
+    padding-top: 20px;
 }
 
 #html
 {
-    padding-left: 260px;
+    padding-left: 265px;
 }
 
 .languages
 {
     background-color: linen;
-    padding-top: 30px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+meter
+{
+    height: 60px;
+    width: 260px;
+}
+
+meter::-webkit-meter-optimum-value
+{
+    background: mediumpurple;
 }
 
 footer
