@@ -27,37 +27,33 @@
 {
     background-color: rosybrown;
     color: white;
+    padding-left: 540px;
 }
 
 .aboutMe-title
 {
-    padding-left: 480px;
     padding-top: 50px;
     padding-bottom: 50px;
 }
 
 .description
 {
-    padding-left: 40px;
     padding-right: 350px;
-    display: inline-block;
     font-size: 30px;
     text-align: justify;
 }
 
 .avatar
 {
+    margin-left: -350px;
     border-radius: 50%;
-    margin-left: 100px;
     height: 280px;
     width: 300px;
-    float: left;
-    margin-right: 40px;
+    position: absolute;
 }
 
 .contact
 {
-    padding-left: 480px;
     padding-top: 50px;
     padding-bottom: 20px;
 }
@@ -109,13 +105,17 @@
     float: left;
 }
 
-.education-school
+.generic-title
 {
-    display: inline-block;
-    padding-left: 200px;
-    font-size: 30px;
-    color: rosybrown;
     font-weight: bolder;
+    font-size: 30px;
+}
+
+.generic-description
+{
+    text-align: justify;
+    font-size: 25px;
+    padding-right: 250px;
 }
 
 .education-degree
@@ -125,34 +125,6 @@
     color: rosybrown;
 }
 
-.education-description
-{
-    padding-left: 645px;
-    padding-right: 350px;
-    font-size: 25px;
-    color: rosybrown;
-    text-align: justify;
-}
-
-#ucv-title
-{
-    padding-left: 640px;
-}
-
-#oneMonth
-{
-    padding-left: 115px;
-}
-
-#benllisoft
-{
-    padding-left: 640px;
-}
-
-#school-web
-{
-    padding-left: 640px;
-}
 .work
 {
     background-color: linen;
@@ -207,6 +179,6 @@ footer
     text-align: center;
     width: 100%;
     text-decoration: none;
-    height: 50px;
+    height: 80px;
     padding-top: 5px;
 }
